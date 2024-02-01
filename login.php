@@ -1,18 +1,19 @@
 <?php
 
-// Sample database connection (replace with your actual credentials)
-$servername = "localhost";
-$username = "u856357678_data";
-$password = "gfdr#456-fS@q";
-$dbname = "u856357678_data";
 
-// Start the session
+$servername = "localhost";
+$username = "+++++++++++";
+$password = "+++";
+$dbname = "+++++++";
+//it`s personal
+
+
 session_start();
 
-// Create connection
+
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
+
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }

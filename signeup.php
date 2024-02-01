@@ -11,10 +11,10 @@ if (!empty($jsonData)) {
     $password = $data['Password'];
 
     // Sample database connection (replace with your actual credentials)
-    $servername = "localhost";
-    $username = "u856357678_data";
-    $dbPassword = "gfdr#456-fS@q";
-    $dbname = "u856357678_data";
+    $servername = "+";
+    $username = "+";
+    $dbPassword = "+";
+    $dbname = "+";
 
     // Create connection
     $conn = new mysqli($servername, $username, $dbPassword, $dbname);
